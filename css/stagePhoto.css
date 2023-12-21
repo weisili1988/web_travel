@@ -1,0 +1,185 @@
+/* 轮播图 */
+.lunbotu {
+    width: 1200px;
+    height: 660px;
+    margin: 0 auto;
+}
+.focus {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity:0;
+}
+.theul {
+    position: absolute;
+    width: 600%;
+}
+.theul li {
+    float: left;
+    width: 1200px;
+    height: 420px;
+}
+.theul li img {
+    width: 100%;
+    height: 100%;
+}
+.circle {
+    position: absolute;
+    top: 450px;
+    left: 425px;
+    width: 350px;
+    height: 40px;
+}
+.circle li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.red {
+    background: url(../material/8.dongtai/2、banner/huaquan.png) no-repeat;
+}
+.photo a {
+    color: #000;
+}
+.photo a:hover {
+    color: #cc3333;
+}
+.photo li a:hover {
+    color: #cc3333;
+}
+.dynamic-pic-img a:nth-child(2) {
+    color: #cc3333;
+}
+.dynamic-pic {
+    /* position: absolute; */
+    max-width: 1910px;
+    min-width: 1200px;
+    margin: -90px auto 0;
+    height: 60px;
+}
+.dynamic-pic-img {
+    /* position: absolute;
+    top: -100px;
+    left: 444px; */
+    width: 1070px;
+    height: 60px;
+    background: url(../material/8.dongtai/2、banner/juxingkuang.png) no-repeat;
+    margin: -60PX auto 0;
+    line-height: 60px;
+    padding-left: 30px;
+    background-size: 100% 100%;
+}
+.shouye:hover {
+    color: #cc3333;
+}
+.dongtai:hover {
+    color: #cc3333;
+}
+
+.dynamic-pic-img a {
+    color: black;
+}
+/* 精彩照片 */
+.photo {
+    width: 1200px;
+    margin: 60px auto 0;
+    height: 1230px;
+}
+.photo ul {
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    cursor: pointer;
+}
+.photo ul img {
+    width: 100%;
+    height: 100%;
+}
+.photo-first {
+    width: 260px;
+    height: 1200px;
+    margin-left: 18px;
+}
+.photo-first-one,
+.photo-first-three,
+.photo-first-five,
+.photo-first-seven {
+    margin-top: 20px;
+}
+
+.photo-second {
+    width: 260px;
+    margin: 0 44px;
+}
+.photo-second li:nth-child(1),
+.photo-second li:nth-child(3),
+.photo-second li:nth-child(5) {
+    margin-top: 20px;
+}
+.photo-third {
+    width: 260px;
+}
+.photo-third li:nth-child(1),
+.photo-third li:nth-child(3),
+.photo-third li:nth-child(5) {
+    margin-top: 20px;
+}
+.photo-fourth {
+    margin-left: 40px;
+}
+.photo-fourth li:nth-child(1),
+.photo-fourth li:nth-child(3),
+.photo-fourth li:nth-child(5) {
+    margin-top: 20px;
+}
+.more {
+    width: 100%;
+    height: 100px;
+}
+.more-pic {
+    width: 168px;
+    height: 36px;
+    margin: 80px auto 0;
+}
+.more-pic img {
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+.more-pic:hover img {
+    transform: scale(1.1);
+}
+
+.footer {
+    max-width: 1910px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.shd {
+    position: relative;
+}
+.shw {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 97%;
+    background-color: rgba(0,0,0,.5);
+    /* border-radius: 25px; */
+    display: none;
+}
+.shd:hover .shw {
+    display: block;
+}

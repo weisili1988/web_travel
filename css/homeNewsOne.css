@@ -1,0 +1,166 @@
+.daohang {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+}
+.daohang-pic {
+    width: 970px;
+    height: 50px;
+    margin: 35px auto;
+    background: url(../material/4.history/2、banner/biankuang.png) no-repeat;
+    line-height: 50px;
+    padding-left: 26px;
+}
+.daohang-pic a {
+    color: #000;
+}
+.daohang-pic a:nth-child(3) {
+    color: #cc3333;
+}
+.daohang-pic a:hover {
+    color: #cc3333;
+}
+.title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -35px;
+}
+.title p:nth-child(2) {
+    margin-top: -25px;
+    font-size: 18px;
+}
+.img-one {
+    width: 616px;
+    height: 438px;
+    margin: 30px auto 0;
+}
+.img-one img {
+    width: 100%;
+    height: 100%;
+}
+.img-one-box {
+    width: 616px;
+    height: 30px;
+    margin: 0 auto;
+}
+.img-one-name {
+    padding-top: 16px;
+    font-size: 18px;
+}
+.img-one-content {
+    width: 1000px;
+    height: 120px;
+    margin: 50px auto 0;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 34px;
+    font-weight: normal;
+}
+
+.img-two {
+    width: 616px;
+    height: 438px;
+    margin: 20px auto 0;
+}
+.img-two img {
+    width: 100%;
+    height: 100%;
+}
+.img-two-box {
+    width: 616px;
+    height: 30px;
+    margin: 0 auto;
+}
+.img-two-name {
+    padding-top: 16px;
+    font-size: 18px;
+}
+.img-two-content {
+    width: 1000px;
+    height: 120px;
+    margin: 60px auto 0;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 34px;
+}
+
+.img-three {
+    width: 616px;
+    height: 438px;
+    margin: 36px auto 0;
+}
+.img-three img {
+    width: 100%;
+    height: 100%;
+}
+.img-three-box {
+    width: 616px;
+    height: 30px;
+    margin: 0 auto;
+}
+.img-three-name {
+    padding-top: 16px;
+    font-size: 18px;
+}
+.img-three-content-one {
+    width: 1000px;
+    height: 120px;
+    margin: 60px auto 40px;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 34px;
+}
+.img-three-content-two {
+    width: 1000px;
+    height: 120px;
+    margin: 60px auto 100px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.img-four {
+    width: 616px;
+    height: 418px;
+    margin: 60px auto 0;
+}
+.img-four img {
+    width: 100%;
+    height: 100%;
+}
+.img-four-box {
+    width: 616px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.img-four-name {
+    padding-top: 16px;
+    font-size: 18px;
+}
+.img-four-content-one {
+    width: 1000px;
+    height: 120px;
+    margin: 50px auto 0px;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 36px;
+}
+.img-four-content-three {
+    width: 1000px;
+    height: 120px;
+    margin: 140px auto 0px;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 36px;
+}
+.img-four-content-four {
+    width: 1000px;
+    height: 120px;
+    margin: 130px auto 100px;
+    font-size: 24px;
+    text-align: justify;
+    line-height: 36px;
+}

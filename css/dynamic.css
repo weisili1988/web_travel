@@ -1,0 +1,231 @@
+/* 轮播图 */
+.mask {
+    /* position: relative; */
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.focus {
+    position: relative;
+    width: 1200px;
+    /* height: 600px; */
+    height: 500px;
+    overflow: hidden;
+    z-index: -1;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity:0;
+}
+.theul {
+    position: absolute;
+    width: 600%;
+}
+.theul li {
+    float: left;
+    width: 1200px;
+    height: 420px;
+}
+.theul li img {
+    width: 100%;
+    height: 100%;
+}
+.circle {
+    position: absolute;
+    top: 450px;
+    left: 425px;
+    width: 350px;
+    height: 40px;
+}
+.circle li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.red {
+    background: url(../material/8.dongtai/2、banner/huaquan.png) no-repeat;
+}
+
+.dynamic-pic {
+    width: 100%;
+    height: 60px;
+}
+.dynamic-pic-img {
+    width: 1070px;
+    height: 60px;
+    background: url(../material/8.dongtai/2、banner/juxingkuang.png) no-repeat;
+    margin: -60px auto 0;
+    line-height: 60px;
+    padding-left: 30px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.dynamic-pic-img a {
+    color: #000;
+    cursor: pointer;
+}
+.dynamic-pic-img a:nth-child(1):hover  {
+    color: #cc3333;
+}
+
+.news-logo {
+    width: 1200px;
+    height: 340px;
+    margin: 0 auto 0;
+}
+.news-logo-pic {
+    width: 306px;
+    height: 86px;
+    padding-top: 140px;
+    margin: -30px auto;
+    cursor: pointer;
+}
+.news-logo-pic img {
+    width: 306px;
+    height: 86px;
+}
+
+
+.content-one {
+    width: 1000px;
+    height: 226px;
+    border-top: 2px solid rgb(153,153,153);
+    margin: 0 auto;
+    text-align: justify;
+}
+.content-one-one {
+    width: 430px;
+    height: 226px;
+    cursor: pointer;
+}
+.content-one div {
+    float: left;
+}
+.content-one div:nth-child(1) {
+    width: 430px;
+    height: 226px;
+}
+.content-one div:nth-child(2) {
+    width: 570px;
+    height: 226px;
+}
+.content-one-one li {
+    float: left;
+}
+.content-one-title {
+    line-height: 226px;
+    color: rgb(153,153,153);
+    font-size: 40px;
+}
+.content-one-pic {
+    position: relative;
+    width: 330px;
+    height: 144px;
+    padding: 40px;
+}
+.content-one-pic img {
+    width: 330px;
+    height: 144px;
+}
+.content-one-two {
+    float: right;
+}
+.content-one-two li:nth-child(1) {
+    padding-top: 40px;
+    font-size: 18px;
+    color: #cc3333;
+    cursor: pointer;
+}
+.content-one-two li:nth-child(2) {
+    padding-top: 10px;
+    font-size: 26px;
+    line-height: 24px;
+    color: #cc3333;
+    cursor: pointer;
+}
+.content-one-two li:nth-child(3) {
+    padding-top: 24px;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+.bb {
+    border-bottom: 4px solid rgb(153,153,153);
+}
+
+
+.page {
+    width: 520px;
+    height: 50px;
+    margin: 75px auto 120px;
+}
+.page li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.page li i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #cc3333;
+    color: #cc3333;
+    margin-top: 12px;
+    line-height: 25px;
+    border-radius: 50%;
+}
+.page li:nth-child(3):hover,
+.page li:nth-child(4):hover,
+.page li:nth-child(5):hover,
+.page li:nth-child(6):hover,
+.page li:nth-child(7):hover,
+.page li:nth-child(9):hover,
+.page li:nth-child(10):hover {
+    color: #cc3333;
+}
+.page li:nth-child(3) {
+    color: #cc3333;
+}
+
+.yun {
+    position: absolute;
+    top: 119px;
+    left: -363px;
+}
+.page li:nth-child(1):hover {
+    transform: scale(1.2);
+}
+.page li:nth-child(2):hover {
+    transform: scale(1.2);
+}
+.page li:nth-child(11):hover {
+    transform: scale(1.2);
+}
+.page li:nth-child(12):hover {
+    transform: scale(1.2);
+}
+.content-one-two li {
+    color: #000;
+}
+.content-one-two li:hover {
+    color: #cc3333;
+}
+
+.dynamic-pic-img a:nth-child(2) {
+    color: #cc3333;
+}

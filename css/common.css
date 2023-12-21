@@ -1,0 +1,170 @@
+/* 字体的引入 */
+@font-face {
+    font-family: song-ti;
+    src: url(../material/1.fontSize/songti-regulaer.otf);
+}
+@font-face {
+    font-family: song-ti-jian;
+    src: url(../material/1.fontSize/Songti-jian.ttc);
+}
+@font-face {
+    font-family: frangzheng;
+    src: url(../material/1.fontSize/fangzheng.ttf);
+}
+
+/* 图标的引入 */
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../material/2.icon/iconfont.woff') format('woff'),
+    url('../material/2.icon/iconfont.ttf') format('truetype'),
+    url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 公共样式的引入 */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: frangzheng;
+}
+body {
+    width: 100%;
+}
+.w {
+    max-width: 1920px;
+    min-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* 头部样式 */
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255,255,255);
+    cursor: pointer;
+}
+.header-ul {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-ul a {
+    color: black;
+}
+.header-li {
+    float: left;
+    vertical-align: center;
+}
+.header-li img {
+    width: 15px;
+    height: 15px;
+    vertical-align: center;
+    margin-right: 5px;
+}
+.header-li-two {
+    margin: 0 80px;
+}
+.header-logo {
+    margin: 0 126px;
+}
+.header-logo img {
+    width: 120px;
+    height: 110px;
+    padding-top: 5px;
+}
+
+.header-li-first {
+    font-size: 18px;
+    margin-top: 36px;
+}
+.header-li-first i {
+    font-size: 18px;
+}
+.header-li-sencod {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 6px;
+}
+.header-li-third {
+    height: 5px;
+    margin-top: 16px;
+}
+.header-li:hover {
+    color: rgb(217,93,93);
+}
+.header-li:hover .header-li-third {
+    animation: widthbig 1s;
+    background-color: rgb(204,42,37);
+}
+@keyframes widthbig {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.header-li-sencod-a {
+    margin-left: 19px;
+}
+.header-li-sencod-b {
+    margin-left: 16px;
+}
+.header-li-sencod-c {
+    margin-left: 17px;
+}
+.header-li-sencod-e {
+    margin-left: 16px;
+}
+.header-li-sencod-f {
+    margin-left: 20px;
+}
+.header-li-sencod-g {
+    margin-left: 13px;
+}
+
+.header .header-ul a .bianse {
+    color: rgb(217,93,93);
+}
+.header-li  .bianchang {
+    width: 100%;
+    background-color: rgb(204,42,37);
+}
+/* 底部样式 */
+.footer {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(151,42,39);
+}
+.footer-w {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer-w-logo {
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+.footer-w p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+.dddd {
+    width: 100%;
+    height: 20px;
+}
